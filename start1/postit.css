@@ -35,12 +35,19 @@ ul {
 
 .postit-yellow {
   background-color: #f9fac8;
+  transform: rotate(-3deg);
 }
 
 .postit-green {
   background-color: #c8f8ca;
+  transform: rotate(3deg);
 }
 
 .postit-lilac {
   background-color: #c7c7f5;
+  transform: rotate(-8deg);
+}
+
+#task4 {
+  transform: rotate(12deg);
 }
