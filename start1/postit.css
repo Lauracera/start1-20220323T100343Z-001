@@ -31,6 +31,13 @@ ul {
   justify-content: center;
   align-items: center;
   box-shadow: 5px 4px 13px -2px #000000;
+  transition: box-shadow 2s transform 3s;
+}
+
+.postit:hover {
+  box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.7);
+  transform: scale(1.25);
+  z-index: 5;
 }
 
 .postit-yellow {
@@ -50,4 +57,10 @@ ul {
 
 #task4 {
   transform: rotate(12deg);
+}
+
+#task4:hover {
+  box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.7);
+  transform: scale(1.25);
+  z-index: 5;
 }
